@@ -32,6 +32,7 @@ OpenSearch Equivalents to ElasticSearch Settings:
 
 - `data_access` = `indices:data/*`, `indices:admin/mappings/fields/get*`, `indices:admin/resolve/index`, `indices:admin/mapping/put`
 - `manage_aliases` = `indices:admin/aliases*`
+- No xpack permissions.
 
 LDAP configurations already integrated in the YAML files with default settings. No obvious dashboard access; will have to use an IDE to configure the YAML files.
 
@@ -50,3 +51,8 @@ ROLE/INDEX authentication via API Key or Token:
 
 - - See if OpenSearch will add API Key or Token based authentication like ElasticSearch has. Currently searching the docs keywords: "API Key", "Key" or "Token" results back with nothing.
 - - This isn't necessary, it can be replaced by USERs mapped to applications rather than API Keys for applications. Rather than a key, you use username and password to authenticate. 
+
+XPACk
+
+- I do not know what this is but there are no xpack related actions. It might be a plugin? Or how relevant this is. 
+- Currently there not permissions/actions related to `cluster:monitor/xpack`, `cluster:admin/xpack`, `indices:data/read/xpack`.
