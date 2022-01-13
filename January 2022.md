@@ -54,7 +54,8 @@ are applied.
 - Difficult
 - Documentation is unhelpful, required a lot of experimenting of things manually to figure things out.
 - Vanilla elasticsearch docs are helpful, for now. It will depend on how far they diverge over time whether that remains useful.
-- Security examples in documentation are for whitelisting but this is not the recommended approach. Documentation does not mention being able to configure via Dashboard therefore no information on how to do so either.
+- Security examples in documentation are for whitelisting but this is not the recommended approach. 
+- Documentation does not mention being able to configure via Dashboard therefore no information on how to do so either.
 
 #### Configure via YAML
 
