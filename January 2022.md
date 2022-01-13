@@ -10,7 +10,7 @@
 - Difficult
 - No APIKey or Token based authorization.
 - Documentation is unhelpful, required a lot of experimenting of things manually to figure things out.
-- Can not see configuration to add host access permissions; could be in the `opensearch-config.yaml` under `http` or `ldap` but not for individual ROLES or index.
+- Can not see config for ip/host filtering for individual index/users; could be in the `opensearch-config.yaml` under `http` or `ldap` but not for individual ROLES or index.
 - Documentation does not mention being able to configure via Dashboard therefore no information on how to do so either.
 
 ### Configure via YAML
